@@ -1,38 +1,128 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+}
+body {
+  font-family: "Poppins", "sans-serif";
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  font-family: "Roboto", "sans-serif";
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8;
+}
+a {
+  text-decoration: none;
+  /* display: inline-block; */
+}
+ul {
+  list-style: none;
+}
+li{
+    list-style: none;
+}
+.top-banner {
+  background-image: url("./../public/img/asset-32.png");
+  background-size: 300px;
+  background-color: #1d2b51;
+  margin-bottom: 10px;
+}
+.container {
+  max-width: 1410px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.hover-links {
+  color: var(--primary-text-color);
+}
+.hover-links:hover {
+  color: var(--accent-color);
+  transition: 0.3s ease-out;
+}
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 500;
+  color: white !important;
+  padding: 8px 10px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 2s ease-out;
+  text-align: center;
+}
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--primary-text-color) !important;
+  padding: 8px 10px;
+  transition: 0.2s ease-out;
+}
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.small-bold-text {
+  font-size: 1rem;
+}
+.banner-text {
+  color: white;
+  padding: 15px 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav bar */
+.main-nav {
+  margin-top: 10px;
+  justify-content: space-between;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.company-logo img {
+  width: 85px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-links {
+  /* flex-basis: 730px; */
 }
-
-.App-link {
-  color: #61dafb;
+.custom-width {
+  display: block; /* Ensures the span takes up the whole line */
+  /* width: 200px; Adjust this value to set the desired width */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links ul {
+  justify-content: end;
+  gap: 30px;
 }
+.nav-toggle {
+  display: none;
+}
+/* .imgnow {
+  background-image: url("./../public/img/newLogo.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 550px;
+} */
