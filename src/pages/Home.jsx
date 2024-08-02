@@ -6,6 +6,7 @@ import About from "../components/About";
 import Events from "../components/Events";
 import Team from "../components/Team";
 import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       <About />
       <Events />
       <Team />
-  <ContactUs/>
+      <ContactUs />
+      <Footer />
     </>
   );
 }
