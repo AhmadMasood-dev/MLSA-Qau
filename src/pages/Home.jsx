@@ -5,7 +5,7 @@ import NavBar from "../components/shared/NavBar";
 import TopBanner from "../components/TopBanner";
 // import RightArrow from '/assests/svgs/RightArrow.svg'
 import event from "../assets/img/__next_static_media_event7.7051231d.jpg";
-import RightArrow from "../assets/svgs/RightArrow.svg";
+//import RightArrow from "../assets/svgs/RightArrow.svg";
 import Team from "../components/Team";
 export default function Home() {
   return (
