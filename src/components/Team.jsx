@@ -1,4 +1,4 @@
-import { teamM1, teamM2, teamM3, teamM4 } from "../assets/img/Image.js";
+import { teamM1, teamM2, teamM3, teamM4 } from "../assets/images/Image.js";
 
 export default function Team() {
   const teamMember = [

@@ -1,5 +1,5 @@
 import Button from "./generics/Button";
-import AboutImg from '../assets/img/asset 2.jpeg';
+import AboutImg from '../assets/images/asset 2.jpeg';
 export default function About() {
   return (
     <section className="text-gray-500  body-font">

@@ -1,5 +1,5 @@
 import Button from "../generics/Button";
-import logo from '../../assets/img/horizontal 1.1.png'
+import logo from '../../assets/images/horizontal 1.1.png'
 export default function NavBar() {
   const navLinks = ["Home", "About", "Events", "Team", "Contact"];
   return (
