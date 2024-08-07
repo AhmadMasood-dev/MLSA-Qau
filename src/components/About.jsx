@@ -1,5 +1,5 @@
 import Button from "./generics/Button";
-import AboutImg from '../assets/images/asset 2.jpeg';
+import AboutImg from "../assets/images/asset 2.jpeg";
 export default function About() {
   return (
     <section className="text-gray-500  body-font">
@@ -10,6 +10,7 @@ export default function About() {
             alt="hero"
             src={AboutImg}
           />
+     
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:ypl-24 md:pl-16  md:items-start md:text-left items-center text-center  ">
           <div className="">
