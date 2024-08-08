@@ -1,11 +1,42 @@
-import logo from './horizontal 1.1.png'
+import logo from "./horizontal 1.1.png";
 
-import teamM1 from './teamM1.png'
-import teamM2 from './teamM2.png'
-import teamM3 from './teamM3.png'
-import teamM4 from './teamM4.jpg'
-import event1 from './event1.jpg'
-import event2 from './event2.jpg'
+import AliMumtaz from "./Memebers/AliMumtaz.png";
 
+import MuhammadAdnanSultan from "./Memebers/Muhammad_Adnan.jpeg";
+import AhmadMasood from "./Memebers/Ahmad_Masood.jpg";
+import HamzaKhan from "./Memebers/Hamza.jpeg";
+import AsjadYousaf from "./Memebers/Asjad_Yousaf.jpeg";
+import SannanAdil from "./Memebers/Sannan Adil.jpeg";
+import HubabMasood from "./Memebers/Hubab.png";
+import HumairaNadeem from "./Memebers/Humaira.jpeg";
+import AwaisAli from "./Memebers/Awais_Ali.jpeg";
+import SafeenaAkhter from "./Memebers/Safeena.jpeg";
+import TalhaBilal from "./Memebers/Talha_Bilal.jpeg";
+import TatheerZahra from "./Memebers/Tatheer_Zahra.jpeg";
+import WaseelAhmer from "./Memebers/Waseel_Ahmer.jpeg";
+import UmarFarooq from "./Memebers/UmarFarooq.JPG";
+import IshfaWaleed from "./Memebers/IshfaWaleed.jpg";
 
-export {logo,teamM1,teamM2,teamM3,teamM4,event1,event2}
+import event1 from "./event1.jpg";
+import event2 from "./event2.jpg";
+
+export {
+  logo,
+  event1,
+  event2,
+  AliMumtaz,
+  AhmadMasood,
+  AsjadYousaf,
+  SannanAdil,
+  UmarFarooq,
+  IshfaWaleed,
+  AwaisAli,
+  HamzaKhan,
+  HubabMasood,
+  HumairaNadeem,
+  MuhammadAdnanSultan,
+  SafeenaAkhter,
+  TalhaBilal,
+  TatheerZahra,
+  WaseelAhmer,
+};
