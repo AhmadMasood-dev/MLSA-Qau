@@ -1,13 +1,18 @@
 export default function HeroSection() {
   return (
-    <div className="h-[35rem] w-full p-10 imgnow  ">
-      <div className="justify-center p-10 text-white  text-center  items-center flex w-full h-full ">
+    <div>
+      <div className="h-[35rem] w-full p-10 imgnow"></div>
+      <div className="w-full content text-white">
         <div className="font-serif">
-          <h1 className="mb-5 font-bold ">
-            <p className="text-5xl mb-2">Microsoft Learn Student Ambassadors</p>
-            <span className="text-4xl">Quaid-I-Azam University</span>
+          <h1 className="font-bold text-5xl p-5   ">
+            Microsoft Learn Student Ambassadors
           </h1>
-          <h3 className="text-xl">Be a force for good-locally and globally</h3>
+          <span className="text-4xl font-semibold pb-5">
+            Quaid-I-Azam University
+          </span>
+          <h3 className="text-xl pt-10">
+            Be a force for good-locally and globally
+          </h3>
         </div>
       </div>
     </div>
