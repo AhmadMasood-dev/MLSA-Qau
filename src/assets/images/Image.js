@@ -1,6 +1,6 @@
 import logo from "./horizontal 1.1.png";
 
-import AliMumtaz from "./Memebers/AliMumtaz.png";
+import AliMumtaz from "./Memebers/AliMumtaz.jpg";
 
 import MuhammadAdnanSultan from "./Memebers/Muhammad_Adnan.jpeg";
 import AhmadMasood from "./Memebers/Ahmad_Masood.jpg";

@@ -1,43 +1,53 @@
 import Button from "../generics/Button";
-import logo from "../../assets/images/horizontal 1.1.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../assets/images/horizontal 1.1 w.png";
 
 export default function NavBar() {
   const navLinksContent = ["Home", "About", "Events", "Team", "Contact"];
-  // const togglButton = document.getElementById("nav-toggle");
-  // console.log("togglButton", togglButton);
-  // const navlinks = document.getElementById("nav-links");
-  // togglButton.addEventListener("click", () => {
-  //   console.log("clicked");
-  //   navlinks.classList.toggle("active");
-  // });
+  function handleHamburger() {
+    const navToggle = document.getElementsByClassName("toggle");
+    for (let i = 0; i < navToggle.length; i++) {
+      navToggle.item(i).classList.toggle("hidden");
+    }
+  }
   return (
-    <div>
-      <div>
-        <div class="container main-nav flex items-center  ">
-          <div className="flex gap-1  ">
-            <a href="/" class="company-logo">
-              <img src={logo} alt="" />
-            </a>
-          </div>
-          <div className="nav-links  justify-center" id="nav-links">
-            <ul className="flex ">
-              {navLinksContent.map((navItem) => (
-                <li>
-                  <a href="/" class="hover-links ml-2">
-                    {navItem}
-                  </a>
-                </li>
-              ))}
-              <Button name="Join Us" styles="primary-button" />
-            </ul>
-          </div>
-          <a href="/" class="nav-toggle hover-links" id="nav-toggle">
-            <FontAwesomeIcon icon={faBars} />
-          </a>
-        </div>
+    <nav class="flex flex-wrap items-center justify-between p-3  bg-primary overflow-hidden">
+      <img src={logo} className="w-[250px] h-[55px] " alt="" />
+      <div class="flex md:hidden">
+        <button id="hamburger" onClick={handleHamburger}>
+          <img
+            className="toggle block"
+            src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
+            width="48"
+            height="48"
+            alt="open"
+          />
+          <img
+            className="toggle hidden"
+            src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
+            width="48"
+            height="48"
+            alt="close"
+          />
+        </button>
       </div>
-    </div>
+      <div class="toggle hidden w-full md:w-auto md:flex text-center text-bold mt-5 md:mt-0 border-t-2 border-secondary md:border-none items-center ">
+        {navLinksContent.map((item) => (
+          <a
+            href="/"
+            class="block md:inline-block text-white hover:text-secondary px-4 py-3   md:border-none"
+            key={item}
+            mr-3
+          >
+            {item}
+          </a>
+        ))}
+        <Button
+          name="Join Now"
+          styles={
+            "text-white py-2 px-3 bg-secondary rounded hover:bg-primary transition ease-out duration-300 border-2 hover:border-secondary invisible md:visible"
+          }
+        />
+      </div>
+    </nav>
   );
 }

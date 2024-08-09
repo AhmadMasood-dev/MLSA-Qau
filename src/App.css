@@ -28,16 +28,17 @@ li {
   background-image: url("./assets/images/asset-32.png");
   background-size: 300px;
   background-color: #1d2b51;
-  margin-bottom: 10px;
+  
 }
-.container {
+/* .container {
   max-width: 1410px;
   margin-inline: auto;
   overflow: hidden;
-}
+} */
 
 .hover-links {
-  color: var(--primary-text-color);
+  /* color: var(--primary-text-color); */
+  /* color:aliceblue; */
 }
 .hover-links:hover {
   color: var(--accent-color);
@@ -61,7 +62,7 @@ li {
 
   border-radius: 6px;
   font-weight: 500;
-  color: var(--primary-text-color) !important;
+  
   padding: 8px 10px;
   transition: 0.2s ease-out;
 }
@@ -72,13 +73,13 @@ li {
 
 .banner-text {
   color: white;
-  padding: 15px 30px;
+  padding: 10px 30px;
   text-align: center;
 }
 
 /* Nav bar */
 .main-nav {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   justify-content: space-between;
   position: relative;
 }

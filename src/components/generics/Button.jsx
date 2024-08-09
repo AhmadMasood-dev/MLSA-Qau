@@ -1,10 +1,10 @@
 import React from "react";
 
-const Button = ({ name, styles, links }) => {
+const Button = ({ name, styles, links = "/" }) => {
   return (
     <div>
       <li>
-        <a href="/" class={`hover-links ${styles} `}>
+        <a href={links} className={`${styles} `}>
           {name}
         </a>
       </li>

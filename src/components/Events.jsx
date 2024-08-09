@@ -1,5 +1,5 @@
 import React from "react";
-import { event1,event2 } from "../assets/images/Image.js";
+import { event1, event2 } from "../assets/images/Image.js";
 const Events = () => {
   const EventData = [
     {
@@ -33,8 +33,8 @@ const Events = () => {
           </p>
         </div>
         <div class="flex flex-wrap -m-4">
-            {EventData.map((event) => (
-          <div class="p-4 md:w-1/3">
+          {EventData.map((event) => (
+            <div class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-400 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-3/5 md:h-36 w-full  bg-cover bg-center"
@@ -56,8 +56,8 @@ const Events = () => {
                   </div>
                 </div>
               </div>
-          </div>
-            ))}
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -65,4 +65,3 @@ const Events = () => {
 };
 
 export default Events;
-
