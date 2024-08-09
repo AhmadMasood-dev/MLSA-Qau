@@ -15,7 +15,7 @@ import {
   WaseelAhmer,
   AsjadYousaf,
 } from "../assets/images/Image.js";
-
+import Button from "./generics/Button.jsx";
 export default function Team() {
   const teamMember = [
     {
@@ -122,6 +122,7 @@ export default function Team() {
             </div>
           ))}
         </div>
+        <Button name="See All Team" styles="secondary-button   " />
       </div>
     </section>
   );
