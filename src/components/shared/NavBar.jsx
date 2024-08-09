@@ -10,9 +10,9 @@ export default function NavBar() {
     }
   }
   return (
-    <nav class="flex flex-wrap items-center justify-between p-3  bg-primary overflow-hidden">
+    <nav className="flex flex-wrap items-center justify-between p-3  bg-primary overflow-hidden">
       <img src={logo} className="w-[250px] h-[55px] " alt="" />
-      <div class="flex md:hidden">
+      <div className="flex md:hidden">
         <button id="hamburger" onClick={handleHamburger}>
           <img
             className="toggle block"
@@ -30,11 +30,11 @@ export default function NavBar() {
           />
         </button>
       </div>
-      <div class="toggle hidden w-full md:w-auto md:flex text-center text-bold mt-5 md:mt-0 border-t-2 border-secondary md:border-none items-center ">
+      <div className="toggle hidden w-full md:w-auto md:flex text-center text-bold mt-5 md:mt-0 border-t-2 border-secondary md:border-none items-center ">
         {navLinksContent.map((item) => (
           <a
             href="/"
-            class="block md:inline-block text-white hover:text-secondary px-4 py-3   md:border-none"
+            className="block md:inline-block text-white hover:text-secondary px-4 py-3   md:border-none"
             key={item}
             mr-3
           >

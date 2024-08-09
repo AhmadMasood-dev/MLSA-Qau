@@ -107,7 +107,7 @@ export default function Team() {
           </p>
           <p className="text-white">Lead</p>
         </div>
-        <div className="flex flex-row flex-wrap justify-center">
+        <div className="flex flex-row flex-wrap justify-center px-5">
           {teamMember.map((member) => (
             <div className="flex flex-col justify-center m-8 text-center ">
               <img
@@ -122,7 +122,12 @@ export default function Team() {
             </div>
           ))}
         </div>
-        <Button name="See All Team" styles="secondary-button   " />
+        <Button
+          name="See All Team →"
+          styles={
+            "text-white py-2 px-3  rounded hover:bg-secondary transition ease-in-out duration-300 border-2 hover:border-alpha invisible md:visible"
+          }
+        />
       </div>
     </section>
   );
