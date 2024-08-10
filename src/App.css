@@ -116,10 +116,11 @@ li {
 }
 .content{
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+
  
  
 }
@@ -169,6 +170,15 @@ li {
   }
   .header-section {
     flex-direction: column-reverse;
+  }
+  .mobile{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+   
   }
 }
 @media screen and (max-width: 479px) {

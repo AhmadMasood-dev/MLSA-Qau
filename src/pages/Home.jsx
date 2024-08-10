@@ -7,13 +7,15 @@ import Events from "../components/Events";
 import Team from "../components/Team";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
+import { useState } from "react";
 
 export default function Home() {
+  const [mobile,setMobile]=useState(false)
   return (
     <>
-      <TopBanner />
-      <NavBar />
-      <HeroSection />
+      {/* <TopBanner /> */}
+      <NavBar mobile={mobile} setMobile={setMobile} />
+      <HeroSection  mobile={mobile} setMobile={setMobile}/>
       <About />
       <Events />
       <Team />

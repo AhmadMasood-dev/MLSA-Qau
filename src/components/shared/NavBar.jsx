@@ -1,13 +1,14 @@
 import Button from "../generics/Button";
 import logo from "../../assets/images/horizontal 1.1 w.png";
 
-export default function NavBar() {
+export default function NavBar({ mobile, setMobile }) {
   const navLinksContent = ["Home", "About", "Events", "Team", "Contact"];
   function handleHamburger() {
     const navToggle = document.getElementsByClassName("toggle");
     for (let i = 0; i < navToggle.length; i++) {
       navToggle.item(i).classList.toggle("hidden");
     }
+    setMobile((mobile)=>!mobile );
   }
   return (
     <nav className="flex flex-wrap items-center justify-between p-3  bg-primary overflow-hidden">
