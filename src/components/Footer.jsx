@@ -2,120 +2,120 @@ import React from "react";
 import { logo } from "../assets/images/Image";
 const Footer = () => {
   return (
-    <footer class="text-gray-600 body-font">
+    <footer class="  bg-primary body-font">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a
-            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+            class="flex title-font font-medium items-center md:justify-start justify-center "
             href="/"
           >
             <img src={logo} alt="" />
           </a>
         </div>
-        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center text-white">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3 ">
               CATEGORIES
             </h2>
             <nav class="list-none mb-10 ">
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   First Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Second Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Third Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Fourth Link
                 </a>
               </li>
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav class="list-none mb-10 ">
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   First Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Second Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Third Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Fourth Link
                 </a>
               </li>
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav class="list-none mb-10 ">
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   First Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Second Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Third Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Fourth Link
                 </a>
               </li>
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">
               CATEGORIES
             </h2>
             <nav class="list-none mb-10 ">
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   First Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Second Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Third Link
                 </a>
               </li>
               <li className="mb-7">
-                <a class="text-gray-600 hover:text-gray-800 " href="/">
+                <a class="text-white hover:text-gray-400 " href="/">
                   Fourth Link
                 </a>
               </li>
@@ -130,7 +130,7 @@ const Footer = () => {
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"
-              class="text-gray-600 ml-1"
+              class="text-white ml-1"
               target="_blank"
             >
               @mlsaqau

@@ -2,7 +2,7 @@ import Button from "./generics/Button";
 import AboutImg from "../assets/images/asset 2.jpeg";
 export default function About() {
   return (
-    <section className="text-gray-500  body-font">
+    <section className="text-white bg-primary  body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
@@ -10,11 +10,10 @@ export default function About() {
             alt="hero"
             src={AboutImg}
           />
-     
         </div>
         <div className=" md:w-1/2 lg:ypl-24 md:pl-16  md:items-start md:text-left items-center text-center  ">
           <div className="">
-            <h1 className="title-font sm:text-4xl  text-3xl mb-5 font-medium text-black font-left">
+            <h1 className="title-font sm:text-4xl  text-3xl mb-5 font-medium  font-left">
               About Us
             </h1>
             <p className="mb-5 leading-relaxed">

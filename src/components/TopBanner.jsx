@@ -2,9 +2,9 @@ import React from "react";
 
 const TopBanner = () => {
   return (
-    <div class="top-banner">
-      <div class="">
-        <div class="small-bold-text banner-text">
+    <div className="top-banner">
+      <div>
+        <div className="small-bold-text banner-text ">
           📣 Interviews is now in beta! Read more →
         </div>
       </div>

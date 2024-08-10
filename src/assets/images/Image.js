@@ -1,4 +1,4 @@
-import logo from "./horizontal 1.1.png";
+import logo from "./horizontal 1.1 w.png";
 
 import AliMumtaz from "./Memebers/AliMumtaz.jpg";
 

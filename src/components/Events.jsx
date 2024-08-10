@@ -22,7 +22,7 @@ const Events = () => {
     },
   ];
   return (
-    <section class="text-gray-600 body-font ">
+    <section class="text-white bg-primary body-font ">
       <div class="container px-5 py-24 mx-auto">
         <div className="text-center  px-5 py-24 mx-auto">
           <h1 className="text-4xl font-bold mb-5">Events</h1>
@@ -42,13 +42,13 @@ const Events = () => {
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
+                  <h1 class="title-font text-xl font-medium text-secondary mb-3">
                     {event.name}
                   </h1>
                   <p class="leading-relaxed mb-3">{event.description}</p>
                   <div class="flex items-center flex-wrap ">
                     <a
-                      class="text-[#2294ed] inline-flex items-center md:mb-2 lg:mb-0"
+                      class="text-secondary inline-flex items-center md:mb-2 lg:mb-0"
                       href="/"
                     >
                       Learn More
