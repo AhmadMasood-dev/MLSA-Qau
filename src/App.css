@@ -124,17 +124,9 @@ li {
  
  
 }
-/* .content h1 p{
-  font-size: 50px;
-  color: white;
-  margin-bottom: 20px;
-} */
-/* .content p{
-  color: white;
-  opacity: 0.8;
-} */
 
 @media screen and (max-width: 992px) {
+ 
   h3 {
     font-size: 2rem;
   }
@@ -165,6 +157,7 @@ li {
   }
 }
 @media screen and (max-width: 767px) {
+  
   .primary-button {
     width: 100%;
   }
@@ -173,7 +166,7 @@ li {
   }
   .mobile{
     position: absolute;
-    top: 105%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -185,9 +178,7 @@ li {
   :root {
     --padding-inline-section: 10px;
   }
-  h1 {
-    font-size: 2rem;
-  }
+
   h2 {
     font-size: 1.5rem;
   }

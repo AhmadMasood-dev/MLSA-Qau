@@ -8,11 +8,12 @@ export default function NavBar({ mobile, setMobile }) {
     for (let i = 0; i < navToggle.length; i++) {
       navToggle.item(i).classList.toggle("hidden");
     }
-    setMobile((mobile)=>!mobile );
+    setMobile(!mobile);
   }
+
   return (
-    <nav className="flex flex-wrap items-center justify-between p-3  bg-primary overflow-hidden">
-      <img src={logo} className="w-[250px] h-[55px] " alt="" />
+    <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden">
+      <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="" />
       <div className="flex md:hidden">
         <button id="hamburger" onClick={handleHamburger}>
           <img
@@ -35,7 +36,7 @@ export default function NavBar({ mobile, setMobile }) {
         {navLinksContent.map((item) => (
           <a
             href="/"
-            className="block md:inline-block text-white hover:text-secondary px-4 py-3   md:border-none"
+            className="block md:inline-block text-white hover:text-secondary mr-5 py-3   md:border-none"
             key={item}
             mr-3
           >
@@ -45,7 +46,7 @@ export default function NavBar({ mobile, setMobile }) {
         <Button
           name="Join Now"
           styles={
-            "text-white py-2 px-3 bg-secondary rounded hover:bg-primary transition ease-out duration-300 border-2 hover:border-secondary invisible md:visible"
+            "text-white bg-secondary hover:bg-primary focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2  transition ease-out duration-300 dark:focus:ring-blue-800 border-2 hover:border-secondary invisible md:visible"
           }
         />
       </div>

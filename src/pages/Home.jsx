@@ -10,12 +10,12 @@ import Footer from "../components/Footer";
 import { useState } from "react";
 
 export default function Home() {
-  const [mobile,setMobile]=useState(false)
+  const [mobile, setMobile] = useState(false);
   return (
     <>
       {/* <TopBanner /> */}
       <NavBar mobile={mobile} setMobile={setMobile} />
-      <HeroSection  mobile={mobile} setMobile={setMobile}/>
+      <HeroSection mobile={mobile} />
       <About />
       <Events />
       <Team />
