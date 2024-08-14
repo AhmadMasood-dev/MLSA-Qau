@@ -7,13 +7,13 @@ import {
   MuhammadAdnanSultan,
   TatheerZahra,
   UmarFarooq,
-  HubabMasood,
+  AhmadMasood,
+  AsjadYousaf,
   SafeenaAkhter,
   TalhaBilal,
   IshfaWaleed,
-  AhmadMasood,
+  HubabMasood,
   WaseelAhmer,
-  AsjadYousaf,
 } from "../assets/images/Image.js";
 import Button from "./generics/Button.jsx";
 export default function Team() {
@@ -99,7 +99,7 @@ export default function Team() {
         <div className="flex flex-col justify-center m-8 text-center">
           <img
             alt=""
-            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full   shadow-md shadow-black transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+            className="self-center flex-shrink-0 w-36 h-36 mb-4 bg-center bg-cover rounded-full   shadow-md shadow-black transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
             src={AliMumtaz}
           />
           <p className="text-xl font-semibold leading-tight text-white">
@@ -112,7 +112,7 @@ export default function Team() {
             <div className="flex flex-col justify-center m-8 text-center ">
               <img
                 alt=""
-                className="self-center flex-shrink-0 w-28 h-28 mb-4 bg-center bg-cover rounded-full   shadow-md shadow-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-200"
+                className="self-center flex-shrink-0 w-32 h-32 mb-4 bg-center bg-cover rounded-full   shadow-md shadow-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-200"
                 src={member.img}
               />
               <p className="text-xl font-semibold leading-tight text-white">

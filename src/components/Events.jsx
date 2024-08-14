@@ -1,5 +1,5 @@
 import React from "react";
-import { event1, event2,event3,event4 } from "../assets/images/Image.js";
+import { event1, event2, event3, event4 } from "../assets/images/Image.js";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -12,6 +12,10 @@ const Events = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    lazyLoad: true,
+    pauseOnHover: true,
 
     responsive: [
       {
@@ -65,7 +69,6 @@ const Events = () => {
         " Lorem ipsum dolor, sit amet consectetur adipisicing elit.Nobis delectus accusantium obcaecati nisi corporis? Corporis asperiores, magnam voluptatibus nesciunt dolorum quit.",
       img: event4,
     },
-   
   ];
   return (
     <section class="text-white bg-primary body-font ">

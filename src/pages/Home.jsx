@@ -2,6 +2,7 @@ import "../App.css";
 import NavBar from "../components/shared/NavBar";
 import HeroSection from "../components/HeroSection";
 import About from "../components/About";
+import Vision from '../components/Vision'
 import Events from "../components/Events";
 import Team from "../components/Team";
 import ContactUs from "../components/ContactUs";
@@ -15,6 +16,7 @@ export default function Home() {
       <NavBar mobileSize={mobileSize} setMobileSize={setMobileSize} />
       <HeroSection mobileSize={mobileSize} />
       <About />
+      <Vision/>
       <Events />
       <Team />
       <ContactUs />
