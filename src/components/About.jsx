@@ -1,5 +1,5 @@
 import Button from "./generics/Button";
-import AboutImg from "../assets/images/asset 2.jpeg";
+import {aboutImg} from "../assets/images/Image.js";
 export default function About() {
   return (
     <section className="text-white bg-primary  body-font">
@@ -8,7 +8,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={AboutImg}
+            src={aboutImg}
           />
         </div>
         <div className=" md:w-1/2 lg:ypl-24 md:pl-16  md:items-start md:text-left items-center text-center  ">

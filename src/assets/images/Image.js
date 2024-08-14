@@ -1,5 +1,9 @@
-import logo from "./horizontal 1.1 w.png";
+import logo from "./Logos/horizontal 1.1 w.png";
+// icons
+import bars from "./icons/bars.png";
+import cross from "./icons/cross.png";
 
+// Team Members
 import AliMumtaz from "./Memebers/AliMumtaz.jpg";
 
 import MuhammadAdnanSultan from "./Memebers/Muhammad_Adnan.jpeg";
@@ -17,13 +21,25 @@ import WaseelAhmer from "./Memebers/Waseel_Ahmer.jpeg";
 import UmarFarooq from "./Memebers/UmarFarooq.JPG";
 import IshfaWaleed from "./Memebers/IshfaWaleed.jpg";
 
-import event1 from "./event1.jpg";
-import event2 from "./event2.jpg";
+import aboutImg from './aboutUs.png'
+// Events
+import event1 from "./events/MLSA.jpeg";
+import event2 from "./events/IntroGithub.jpeg";
+import event3 from "./events/postman.jpeg";
+import event4 from "./events/Empower.jpeg";
 
 export {
   logo,
+  bars,
+  cross,
+
+  aboutImg,
+
   event1,
   event2,
+  event3,
+  event4,
+  
   AliMumtaz,
   AhmadMasood,
   AsjadYousaf,

@@ -1,9 +1,11 @@
-export default function HeroSection({ mobile }) {
+export default function HeroSection({ mobileSize }) {
   return (
     <div>
       <div className="h-[35rem] w-full p-10 imgnow "> </div>
 
-      <div className={`w-full  text-white content ${!mobile ? "" : "mobile"}`}>
+      <div
+        className={`w-full  text-white content ${!mobileSize ? "" : "mobile"}`}
+      >
         <h1 className="font-bold text-2xl sm:text-3xl md:text-5xl p-5   ">
           Microsoft Learn Student Ambassadors
         </h1>

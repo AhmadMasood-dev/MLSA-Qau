@@ -1,5 +1,4 @@
 import "../App.css";
-import TopBanner from "../components/TopBanner";
 import NavBar from "../components/shared/NavBar";
 import HeroSection from "../components/HeroSection";
 import About from "../components/About";
@@ -10,12 +9,11 @@ import Footer from "../components/Footer";
 import { useState } from "react";
 
 export default function Home() {
-  const [mobile, setMobile] = useState(false);
+  const [mobileSize, setMobileSize] = useState(false);
   return (
     <>
-      {/* <TopBanner /> */}
-      <NavBar mobile={mobile} setMobile={setMobile} />
-      <HeroSection mobile={mobile} />
+      <NavBar mobileSize={mobileSize} setMobileSize={setMobileSize} />
+      <HeroSection mobileSize={mobileSize} />
       <About />
       <Events />
       <Team />
