@@ -1,14 +1,13 @@
 import Button from "../generics/Button";
-import logo from "../../assets/images/horizontal 1.1 w.png";
-
-export default function NavBar({ mobile, setMobile }) {
+import { logo, bars, cross } from "../../assets/images/Image.js";
+export default function NavBar({ mobileSize, setMobileSize }) {
   const navLinksContent = ["Home", "About", "Events", "Team", "Contact"];
   function handleHamburger() {
     const navToggle = document.getElementsByClassName("toggle");
     for (let i = 0; i < navToggle.length; i++) {
       navToggle.item(i).classList.toggle("hidden");
     }
-    setMobile(!mobile);
+    setMobileSize(!mobileSize);
   }
 
   return (
@@ -18,16 +17,16 @@ export default function NavBar({ mobile, setMobile }) {
         <button id="hamburger" onClick={handleHamburger}>
           <img
             className="toggle block"
-            src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png"
-            width="48"
-            height="48"
+            src={bars}
+            width="30"
+            height="30"
             alt="open"
           />
           <img
             className="toggle hidden"
-            src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png"
-            width="48"
-            height="48"
+            src={cross}
+            width="30"
+            height="30"
             alt="close"
           />
         </button>
