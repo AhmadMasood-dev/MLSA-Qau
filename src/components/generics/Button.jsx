@@ -1,14 +1,10 @@
 import React from "react";
 
-const Button = ({ name, styles, links = "/" }) => {
+const Button = ({ name, styles, links = "/", onClick }) => {
   return (
-    <div>
-      <li>
-        <a href={links} className={`${styles} `}>
-          {name}
-        </a>
-      </li>
-    </div>
+    <button className={`${styles} `} onClick={onClick}>
+      {name}
+    </button>
   );
 };
 

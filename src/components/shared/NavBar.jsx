@@ -11,7 +11,7 @@ export default function NavBar({ mobileSize, setMobileSize }) {
   }
 
   return (
-    <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden">
+    <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden mx-auto">
       <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="" />
       <div className="flex md:hidden">
         <button id="hamburger" onClick={handleHamburger}>
