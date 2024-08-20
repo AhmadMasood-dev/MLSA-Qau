@@ -1,13 +1,13 @@
 import Button from "../generics/Button";
 import { logo, bars, cross } from "../../assets/images/Image.js";
-export default function NavBar({ mobileSize, setMobileSize }) {
+export default function NavBar({ isMobile, setIsMobile }) {
   const navLinksContent = ["Home", "About", "Events", "Team", "Contact"];
   function handleHamburger() {
     const navToggle = document.getElementsByClassName("toggle");
     for (let i = 0; i < navToggle.length; i++) {
       navToggle.item(i).classList.toggle("hidden");
     }
-    setMobileSize(!mobileSize);
+    setIsMobile(!isMobile);
   }
 
   return (
