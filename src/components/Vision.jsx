@@ -43,7 +43,7 @@ const Vision = () => {
                 <span class="text-xl font-semibold text-gray-700">2</span>
               </div>
               <h3 class="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
-                Fostering an Inclusive Community for MLSA
+                Fostering an Inclusive Community 
               </h3>
             </div>
             <div>

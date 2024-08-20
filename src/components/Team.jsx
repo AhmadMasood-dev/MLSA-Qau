@@ -165,8 +165,8 @@ export default function Team() {
   }
 
   return (
-    <section className="py-6 bg-primary">
-      <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+    <section className="py-24 bg-primary">
+      <div className="container flex flex-col items-center justify-center px-4 mx-auto space-y-8 sm:px-10">
         <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl text-white mb-8">
           Our Team
         </h1>
@@ -192,9 +192,9 @@ export default function Team() {
               ))}
         </div>
         <Button
-          name={!team ? "See All Team → " : "See less Team → "}
+          name={!team ? "See All Team → " : "See less → "}
           styles={
-            "text-white py-2 px-3  rounded hover:bg-secondary transition ease-in-out duration-300 border-2 hover:border-alpha invisible md:visible"
+            "text-white py-2 px-3  rounded hover:bg-secondary transition ease-in-out duration-300 border-2 hover:border-alpha"
           }
           onClick={handleAllTeam}
         />
