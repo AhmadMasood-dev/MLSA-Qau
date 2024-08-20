@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 import Button from "./generics/Button";
+import { IoIosMail } from "react-icons/io";
+import { FaPhoneVolume } from "react-icons/fa6";
 const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -16,59 +19,47 @@ const ContactUs = () => {
   }
   function hanldeResetForm(e) {
     e.preventDefault();
-    // if (name === "") alert("Please enter a name");
-    // else
     setName("");
     if (!email.includes("@")) {
       alert("@ is missing in the email");
+      return;
     } else setEmail("");
     setMessage("");
+
+    Swal.fire({
+      title: "Good job!",
+      text: "Thanks! We have received your message.",
+      icon: "success",
+    });
   }
   return (
-    <section className="text-white body-font bg-primary px-16">
+    <section className="text-white  bg-primary sm:px-16">
       <div
-        className="container flex flex-col md:flex-row lg:max-w-5xl  w-full px-5 py-12 md:py-24 mx-auto section"
+        className="container flex flex-col lg:flex-row lg:max-w-6xl  w-full px-5 py-24 mx-auto section"
         id="contact-form"
       >
-        <div className="md:w-1/3 w-full">
-          <h1 className="text-4xl  sm:text-4xl font-bold title-font mb-4">
-            Contact Us
-          </h1>
-          <p className="leading-relaxed text-xl mb-5  ">
+        <div className=" lg:w-1/2 w-full mb-16">
+          <h1 className="text-4xl text-center  font-bold  mb-4">Contact Us</h1>
+          <p className="leading-relaxed  text-center  sm:text-xl mb-10 sm:mb-6  ">
             We're here to assist you! If you have any questions or need
             assistance, please feel free to reach out to us.
           </p>
-
-          <label for="CEmail" className="leading-7 text-lg ">
-            Email
-          </label>
-          <input
-            type="text"
-            id="CEmail"
-            placeholder="ahmadmasood.dev@gmail.com"
-            disabled
-            className="w-full rounded  text-base outline-none  py-5 px-5  hover:bg-primary hover:border-2 hover:border-secondary my-5 transition duration-300 ease-in-out "
-          />
-          <label for="PhoneNumber" className="leading-7 text-lg ">
-            Phone Number
-          </label>
-          <input
-            type="text"
-            id="PhoneNumber"
-            placeholder="+92 3160707856"
-            disabled
-            className="w-full   rounded  text-base outline-none  py-5 px-5 hover:bg-primary hover:border-2 hover:border-secondary my-5 transition duration-300 ease-in-out"
-          />
+          <div className=" text-sky-300 ">
+            <div className="w-full rounded  text-base outline-none  py-5 text-center justify-center  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out flex items-center flex-wrap  ">
+              <IoIosMail className="sm:inline-block mr-3 sm:h-6 sm:w-6 " />
+              ahmadmasood.dev@gmail.com
+            </div>
+            <div className="w-full rounded  text-base outline-none text-center   py-5 px-5  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out ">
+              <FaPhoneVolume className="inline-block mr-3 h-6 w-5 " />{" "}
+              <span>+92 3160707856</span>
+            </div>
+          </div>
         </div>
-        <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
-          <h1 className="text-4xl  sm:text-4xl font-bold title-font mb-4">
+        <div className=" lg:w-2/3 w-full mt-10 md:mt-0 lg:pl-20">
+          <h1 className="text-4xl  text-center mb-10 font-bold ">
             Contact Form
           </h1>
-          <form
-            action="send-contact.php"
-            method="post"
-            id="submit-contact-form"
-          >
+          <form action="" id="submit-contact-form">
             <div className="p-2 w-full">
               <div className="relative">
                 <label for="name" className="leading-7 py-4 text-lg ">
@@ -78,7 +69,7 @@ const ContactUs = () => {
                   type="text"
                   id="name"
                   name="name"
-                  required=""
+                  required
                   value={name}
                   onChange={handleName}
                   className="w-full bg-primary rounded border border-secondary  focus:border-blue-500 focus:bg-slate-300 mt-3 mb-5 focus:text-black focus:ring-2 focus:ring-blue-200 text-base outline-none text-white py-2 px-2 leading-8 transition-colors duration-200 ease-in-out "
@@ -109,7 +100,7 @@ const ContactUs = () => {
                 <textarea
                   id="message"
                   name="message"
-                  required=""
+                  required
                   value={message}
                   onChange={handleMessage}
                   className="w-full bg-primary rounded border border-secondary focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition duration-200 ease-in-out "
@@ -120,7 +111,7 @@ const ContactUs = () => {
               <Button
                 name="send Message ✉"
                 styles={
-                  "flex text-white  border-2 border-secondary py-4 px-6 focus:outline-none hover:bg-blue-900 rounded text-xl font-semibold shadow-lg mx-0 flex-col text-center g-recaptcha transition duration-900 ease-in-out"
+                  "text-white  border-2 border-secondary py-4 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg font-medium shadow-lg text-center duration-900 ease-in-out transition "
                 }
                 onClick={hanldeResetForm}
               />
