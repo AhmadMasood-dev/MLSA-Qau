@@ -2,8 +2,8 @@ import Button from "./generics/Button";
 import {aboutImg} from "../assets/images/Image.js";
 export default function About() {
   return (
-    <section className="text-white bg-primary  body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center">
+    <section className="text-white bg-primary " id="About" >
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center" data-aos="zoom-in-up"   data-aos-duration="1000">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
             className="object-cover object-center rounded"

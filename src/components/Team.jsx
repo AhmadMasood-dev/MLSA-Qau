@@ -165,8 +165,8 @@ export default function Team() {
   }
 
   return (
-    <section className="py-24 bg-primary">
-      <div className="container flex flex-col items-center justify-center px-4 mx-auto space-y-8 sm:px-10">
+    <section className="py-24 bg-primary "  id="Team">
+      <div className="container flex flex-col items-center justify-center px-4 mx-auto space-y-8 sm:px-10" data-aos="zoom-in" data-aos-duration="1000">
         <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl text-white mb-8">
           Our Team
         </h1>

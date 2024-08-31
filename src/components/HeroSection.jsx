@@ -1,6 +1,6 @@
 export default function HeroSection({ isMobile }) {
   return (
-    <div>
+    <div id="Home">
       <div className="h-[35rem] w-full p-10 imgnow "> </div>
 
       <div
