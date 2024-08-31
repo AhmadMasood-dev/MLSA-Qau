@@ -8,20 +8,25 @@ const Footer = () => {
     <footer className="bg-[#0A1F44] text-white py-6">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center px-4 space-y-10 lg:space-y-0">
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="h-14 " />
+          <a href="#">
+            <img src={logo} alt="Logo" className="h-14 " />
+          </a>
         </div>
 
         <nav className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-8 text-center">
-          <a href="/" className="text-gray-300 hover:text-secondary">
-            HOME
+          <a href="#About" className="text-gray-300 hover:text-secondary">
+            ABOUT US
+          </a>{" "}
+          <a href="#Vision" className="text-gray-300 hover:text-secondary">
+            VISION
           </a>
-          <a href="/" className="text-gray-300 hover:text-secondary">
+          <a href="#Events" className="text-gray-300 hover:text-secondary">
             EVENTS
           </a>
-          <a href="/" className="text-gray-300 hover:text-secondary">
-            ABOUT US
+          <a href="#Team" className="text-gray-300 hover:text-secondary">
+            TEAM
           </a>
-          <a href="/" className="text-gray-300 hover:text-secondary">
+          <a href="#Contact" className="text-gray-300 hover:text-secondary">
             CONTACT
           </a>
         </nav>
@@ -50,15 +55,15 @@ const Footer = () => {
         </div>
 
         <div className="text-center flex flex-col  md:flex-row space-y-10 md:space-y-0  ">
-          <a href="/" className="text-gray-300 hover:text-secondary mx-2">
+          <p className="text-gray-300 hover:text-secondary mx-2">
             Privacy Policy
-          </a>
-          <a href="/" className="text-gray-300 hover:text-secondary mx-2">
+          </p>
+          <p className="text-gray-300 hover:text-secondary mx-2">
             Terms of Services
-          </a>
-          <a href="/" className="text-gray-300 hover:text-secondary mx-2">
+          </p>
+          <p className="text-gray-300 hover:text-secondary mx-2">
             Cookie Settings
-          </a>
+          </p>
         </div>
       </div>
     </footer>

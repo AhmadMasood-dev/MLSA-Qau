@@ -22,7 +22,6 @@ body {
 
 a {
   text-decoration: none;
-  /* display: inline-block; */
 }
 ul {
   list-style: none;
@@ -30,25 +29,8 @@ ul {
 li {
   list-style: none;
 }
-.top-banner {
-  background-image: url("./assets/images/asset-32.png");
-  background-size: 300px;
-  background-color: #1d2b51;
-}
-/* .container {
-  max-width: 1410px;
-  margin-inline: auto;
-  overflow: hidden;
-} */
 
-.hover-links {
-  /* color: var(--primary-text-color); */
-  /* color:aliceblue; */
-}
-.hover-links:hover {
-  color: var(--accent-color);
-  transition: 0.3s ease-out;
-}
+/* 
 .primary-button {
   background-color: var(--accent-color);
   border-radius: 5px;
@@ -61,7 +43,7 @@ li {
 }
 .primary-button:hover {
   background-color: var(--accent-color-dark);
-}
+}*/
 .secondary-button {
   border: 0.5px solid var(--secondary-text-color);
 
@@ -76,30 +58,6 @@ li {
   color: var(--accent-color) !important;
 }
 
-.banner-text {
-  color: white;
-  padding: 10px 30px;
-  text-align: center;
-}
-
-/* Nav bar */
-.main-nav {
-  /* margin-top: 10px; */
-  justify-content: space-between;
-  position: relative;
-}
-.company-logo img {
-  width: 250px;
-  height: 55px;
-}
-
-.nav-links ul {
-  justify-content: end;
-  gap: 30px;
-}
-.nav-toggle {
-  display: none;
-}
 .imgnow {
   background-image: url("./assets/images/qau4.jpg");
   width: 100%;
@@ -132,37 +90,19 @@ li {
   }
   h4 {
     font-size: 0.7rem;
-  }
-  .nav-toggle {
-    display: block;
-    margin-right: 20px;
-  }
-  .main-nav {
-    overflow: initial;
-  }
-  .nav-links {
-    position: absolute;
-    background-color: white;
-    left: -100%;
-    top: 100%;
-    width: 100%;
-    padding-block: 20px;
-    transition: 0.2s ease-in-out;
-  }
-  .nav-links.active {
-    left: 0;
-  }
-  .nav-links ul {
-    flex-direction: column;
+
+    .nav-links {
+      position: absolute;
+      background-color: white;
+      left: -100%;
+      top: 100%;
+      width: 100%;
+      padding-block: 20px;
+      transition: 0.2s ease-in-out;
+    }
   }
 }
 @media screen and (max-width: 767px) {
-  .primary-button {
-    width: 100%;
-  }
-  .header-section {
-    flex-direction: column-reverse;
-  }
   .mobile {
     position: absolute;
     top: 100%;
@@ -175,7 +115,6 @@ li {
   :root {
     --padding-inline-section: 10px;
   }
-
   h2 {
     font-size: 1.5rem;
   }

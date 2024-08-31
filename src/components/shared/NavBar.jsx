@@ -1,7 +1,7 @@
 import Button from "../generics/Button";
 import { logo, bars, cross } from "../../assets/images/Image.js";
 export default function NavBar({ isMobile, setIsMobile }) {
-  const navLinksContent = [ "About","Vision", "Events", "Team", "Contact"];
+  const navLinksContent = ["About", "Vision", "Events", "Team", "Contact"];
   function handleHamburger() {
     const navToggle = document.getElementsByClassName("toggle");
     for (let i = 0; i < navToggle.length; i++) {
@@ -12,10 +12,9 @@ export default function NavBar({ isMobile, setIsMobile }) {
 
   return (
     <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden mx-auto ">
-    <a href="/">
-
-      <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="logo"  />
-    </a>
+      <a href="#">
+        <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="logo" />
+      </a>
       <div className="flex md:hidden">
         <button id="hamburger" onClick={handleHamburger}>
           <img
