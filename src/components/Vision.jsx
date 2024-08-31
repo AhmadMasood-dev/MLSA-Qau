@@ -2,8 +2,8 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <section id="works" class="relative bg-primary py-24 mx-auto">
-      <div class="px-5 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section id="Vision" class=" bg-primary py-24 mx-auto">
+      <div class="px-5 mx-auto max-w-7xl sm:px-6 lg:px-8" data-aos="fade-right">
         <div class="max-w-2xl mx-auto text-center">
           <h2 class="text-4xl text-white font-extrabold mx-auto md:text-6xl lg:text-5xl">
           Our Vision

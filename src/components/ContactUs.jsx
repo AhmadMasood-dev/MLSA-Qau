@@ -36,31 +36,39 @@ const ContactUs = () => {
     <section className="text-white  bg-primary sm:px-16">
       <div
         className="container flex flex-col lg:flex-row lg:max-w-6xl  w-full px-5 py-24 mx-auto section"
-        id="contact-form"
+        id="Contact"
       >
-        <div className=" lg:w-1/2 w-full mb-16">
-          <h1 className="text-4xl text-center  font-bold  mb-4">Contact Us</h1>
-          <p className="leading-relaxed  text-center  sm:text-xl mb-10 sm:mb-6  ">
+        <div
+          className=" lg:w-1/2 w-full mb-16"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 className="text-4xl text-center  font-bold  mb-5">Contact Us</h1>
+          <p className="leading-relaxed  text-center sm:text-lg mb-10   ">
             We're here to assist you! If you have any questions or need
             assistance, please feel free to reach out to us.
           </p>
-          <div className=" text-sky-300 ">
-            <div className="w-full rounded  text-base outline-none  py-5 text-center justify-center  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out flex items-center flex-wrap  ">
+          <div className=" text-sky-300 ml-5 ">
+            <div className="w-full  rounded  text-base outline-none  py-7 text-center justify-center md:justify-start md:px-3  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out flex items-center flex-wrap  ">
               <IoIosMail className="sm:inline-block mr-3 sm:h-6 sm:w-6 " />
-              ahmadmasood.dev@gmail.com
+              <span>ahmadmasood.dev@gmail.com</span>
             </div>
-            <div className="w-full rounded  text-base outline-none text-center   py-5 px-5  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out ">
-              <FaPhoneVolume className="inline-block mr-3 h-6 w-5 " />{" "}
+            <div className="w-full  rounded  text-base outline-none text-center   py-8 px-5  hover:bg-primary border-2   md:px-3 md:text-left border-secondary my-5 transition duration-300 ease-in-out ">
+              <FaPhoneVolume className="inline-block mr-3 h-6 w-5 " />
               <span>+92 3160707856</span>
             </div>
           </div>
         </div>
-        <div className=" lg:w-2/3 w-full mt-10 md:mt-0 lg:pl-20">
-          <h1 className="text-4xl  text-center mb-10 font-bold ">
+        <div
+          className=" lg:w-2/3 w-full mt-10 md:mt-0 lg:pl-20"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 className="text-4xl  text-center mb-16 font-bold ">
             Contact Form
           </h1>
           <form action="" id="submit-contact-form">
-            <div className="p-2 w-full">
+            <div className="p-2 w-full ">
               <div className="relative">
                 <label for="name" className="leading-7 py-4 text-lg ">
                   Your Name

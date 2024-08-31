@@ -1,7 +1,7 @@
 import Button from "../generics/Button";
 import { logo, bars, cross } from "../../assets/images/Image.js";
 export default function NavBar({ isMobile, setIsMobile }) {
-  const navLinksContent = ["Home", "About", "Events", "Team", "Contact"];
+  const navLinksContent = [ "About","Vision", "Events", "Team", "Contact"];
   function handleHamburger() {
     const navToggle = document.getElementsByClassName("toggle");
     for (let i = 0; i < navToggle.length; i++) {
@@ -11,8 +11,11 @@ export default function NavBar({ isMobile, setIsMobile }) {
   }
 
   return (
-    <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden mx-auto">
-      <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="" />
+    <nav className="flex flex-wrap items-center justify-between py-3 px-5  bg-primary overflow-hidden mx-auto ">
+    <a href="/">
+
+      <img src={logo} className="w-auto md:w-[250px] h-[55px] " alt="logo"  />
+    </a>
       <div className="flex md:hidden">
         <button id="hamburger" onClick={handleHamburger}>
           <img
@@ -31,11 +34,11 @@ export default function NavBar({ isMobile, setIsMobile }) {
           />
         </button>
       </div>
-      <div className="toggle hidden w-full md:w-auto md:flex text-center text-bold mt-5 md:mt-0 border-t-2 border-secondary md:border-none items-center ">
+      <div className="toggle hidden w-full md:w-auto md:flex text-center  mt-5 md:mt-0 border-t-2 border-secondary md:border-none items-center ">
         {navLinksContent.map((item) => (
           <a
-            href="/"
-            className="block md:inline-block text-white hover:text-secondary mr-5 py-3   md:border-none"
+            href={`#${item}`}
+            className="block md:inline-block text-white hover:text-secondary mr-5 py-3 font-medium  md:border-none"
             key={item}
             mr-3
           >
