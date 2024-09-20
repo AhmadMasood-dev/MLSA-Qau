@@ -27,20 +27,7 @@ const ContactUs = () => {
   
     // Call Formspree's handleSubmit
    await handleSubmit({ name, email, message }); // Pass the form data as an object
-  // console.log(result);
-  console.log(state.succeeded);
-    // Check if the form was submitted successfully
-    if (!state.succeeded) {
-      setName("");
-      setEmail("");
-      setMessage("");
-      Swal.fire({
-        title: "Oops!",
-        text: "There was a problem submitting your message.",
-        icon: "error",
-      });
-    }
-    if(state.succeeded){
+    if(!state.succeeded){
       setName("");
       setEmail("");
       setMessage("");
@@ -50,6 +37,16 @@ const ContactUs = () => {
         title: "Great Gob!",
         text: "Thanks! We have received your message.",
         icon: "success",
+      });
+    }
+    else{
+      setName("");
+      setEmail("");
+      setMessage("");
+      Swal.fire({
+        title: "Oops!",
+        text: "There was a problem submitting your message.",
+        icon: "error",
       });
     }
   };
