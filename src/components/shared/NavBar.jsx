@@ -1,4 +1,4 @@
-import Button from "../generics/Button";
+import JoinLink from "../generics/JoinLink";
 import { logo, bars, cross } from "../../assets/images/Image.js";
 export default function NavBar({ isMobile, setIsMobile }) {
   const navLinksContent = ["About", "Vision", "Events", "Team", "Contact"];
@@ -44,7 +44,7 @@ export default function NavBar({ isMobile, setIsMobile }) {
             {item}
           </a>
         ))}
-        <Button
+        <JoinLink
           name="Join Now"
           styles={
             "text-white bg-secondary hover:bg-primary focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2  transition ease-out duration-300 dark:focus:ring-blue-800 border-2 hover:border-secondary invisible md:visible"
