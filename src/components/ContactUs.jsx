@@ -51,11 +51,11 @@ const ContactUs = () => {
           <div className=" text-sky-300 ml-5 ">
             <div className="w-full  rounded  text-base outline-none  py-7 text-center justify-center md:justify-start md:px-3  hover:bg-primary border-2    border-secondary my-5 transition duration-300 ease-in-out flex items-center flex-wrap  ">
               <IoIosMail className="sm:inline-block mr-3 sm:h-6 sm:w-6 " />
-              <span>ahmadmasood.dev@gmail.com</span>
+              <span>mlsaqau@gmail.com</span>
             </div>
             <div className="w-full  rounded  text-base outline-none text-center   py-8 px-5  hover:bg-primary border-2   md:px-3 md:text-left border-secondary my-5 transition duration-300 ease-in-out ">
               <FaPhoneVolume className="inline-block mr-3 h-6 w-5 " />
-              <span>+92 3160707856</span>
+              <span>+92 30070192</span>
             </div>
           </div>
         </div>
