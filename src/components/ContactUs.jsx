@@ -55,7 +55,7 @@ const ContactUs = () => {
             </div>
             <div className="w-full  rounded  text-base outline-none text-center   py-8 px-5  hover:bg-primary border-2   md:px-3 md:text-left border-secondary my-5 transition duration-300 ease-in-out ">
               <FaPhoneVolume className="inline-block mr-3 h-6 w-5 " />
-              <span>+92 30070192</span>
+              <span>+92 3007050192</span>
             </div>
           </div>
         </div>

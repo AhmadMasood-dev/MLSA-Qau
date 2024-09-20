@@ -56,26 +56,26 @@ const Events = () => {
     {
       name: "Meetup with MLSA",
       description:
-        " Lorem ipsum dolor, sit amet consectetur adipisicing elit.Nobis delectus accusantium obcaecati nisi corporis? Corporis asperiores, magnam voluptatibus nesciunt dolorum quit.",
+        " Ali Mumtaz represented MLSA QAU at the Higher Education Commission (HEC) Headquarters, Islamabad, showcasing the Imagine Cup project. The event celebrated MLSA QAU's achievements, with a special recognition from @ahmedrajaspeaks for organizing the occasion.",
       img: event1,
     },
     {
       name: "Introduction To Github",
       description:
-        " Lorem ipsum dolor, sit amet consectetur adipisicing elit.Nobis delectus accusantium obcaecati nisi corporis? Corporis asperiores, magnam voluptatibus nesciunt dolorum quit.",
+        " An introductory session on GitHub was conducted right after becoming an MLSA. The session focused on GitHub's core features, helping developers understand version control, collaboration, and how to use GitHub effectively for managing projects.",
       img: event2,
     },
     {
       name: "API 101 Using Postman",
       description:
-        " Lorem ipsum dolor, sit amet consectetur adipisicing elit.Nobis delectus accusantium obcaecati nisi corporis? Corporis asperiores, magnam voluptatibus nesciunt dolorum quit.",
+        " An exclusive online API 101 Workshop using Postman was conducted for tech and API enthusiasts. It covered the fundamentals of APIs (CRUD operations) and demonstrated how to effectively leverage Postman for API testing and development.",
 
       img: event3,
     },
     {
       name: "EmPower Her",
       description:
-        " Lorem ipsum dolor, sit amet consectetur adipisicing elit.Nobis delectus accusantium obcaecati nisi corporis? Corporis asperiores, magnam voluptatibus nesciunt dolorum quit.",
+        "The Empower Her series by MLSA QAU aimed to inspire and empower women in tech. Featuring sessions on GitHub, machine learning, and data visualization, it provided valuable skills and hands-on experience. The series fostered collaboration and growth for women pursuing careers in technology.",
       img: event4,
     },
   ];
@@ -89,9 +89,7 @@ const Events = () => {
         <div className="text-center  px-5 pb-20 mx-auto">
           <h1 className="text-4xl font-bold mb-5">Events</h1>
           <p className="sm:px-20">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. . Sit
-            deserunt sint, fuga, iste, adipisci id est architecto dolor rerum
-            esse minima? Dolores exercitationem quisquam quidem a odio dicta.
+          MLSA QAU has organized a series of impactful events aimed at empowering tech enthusiasts and fostering community growth. From introductory sessions on GitHub to the Empower Her series, these events provide hands-on learning opportunities in areas such as version control, machine learning, and data visualization. Featuring expert speakers and interactive workshops, the events are designed to equip participants with practical skills, enhance collaboration, and support career development in the technology sector. Each session encourages innovation, growth, and empowerment for aspiring developers and professionals.
           </p>
         </div>
         <div class="flex flex-col   px-5 mx-3  slider-container ">
