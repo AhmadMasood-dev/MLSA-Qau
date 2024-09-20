@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className="bg-[#0A1F44] text-white py-6">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center px-4 space-y-10 lg:space-y-0">
         <div className="flex items-center space-x-2">
+        
           <a href="#">
             <img src={logo} alt="Logo" className="h-14 " />
           </a>
