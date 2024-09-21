@@ -56,7 +56,7 @@ const Events = () => {
     {
       name: "Meetup with MLSA",
       description:
-        " Ali Mumtaz represented MLSA QAU at the Higher Education Commission (HEC) Headquarters, Islamabad, showcasing the Imagine Cup project. The event celebrated MLSA QAU's achievements, with a special recognition from @ahmedrajaspeaks for organizing the occasion.",
+        " Ali Mumtaz represented MLSA QAU at the Higher Education Commission (HEC) Headquarters, Islamabad, showcasing the Imagine Cup project.",
       img: event1,
     },
     {
@@ -89,7 +89,8 @@ const Events = () => {
         <div className="text-center  px-5 pb-20 mx-auto">
           <h1 className="text-4xl font-bold mb-5">Events</h1>
           <p className="sm:px-20">
-          MLSA QAU has organized a series of impactful events aimed at empowering tech enthusiasts and fostering community growth. From introductory sessions on GitHub to the Empower Her series, these events provide hands-on learning opportunities in areas such as version control, machine learning, and data visualization. Featuring expert speakers and interactive workshops, the events are designed to equip participants with practical skills, enhance collaboration, and support career development in the technology sector. Each session encourages innovation, growth, and empowerment for aspiring developers and professionals.
+          MLSA QAU has organized a series of impactful events aimed at empowering tech enthusiasts and fostering community growth. From introductory sessions on GitHub to the Empower Her series, these events provide hands-on learning opportunities in areas such as version control, machine learning, and data visualization. Featuring expert speakers and interactive workshops, the events are designed to equip participants with practical skills, enhance collaboration, and support career development in the technology sector.
+           Each session encourages innovation, growth, and empowerment for aspiring developers and professionals.
           </p>
         </div>
         <div class="flex flex-col   px-5 mx-3  slider-container ">
