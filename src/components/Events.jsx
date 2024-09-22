@@ -109,14 +109,6 @@ const Events = () => {
                     <p class="leading-relaxed mb-3 text-sm lg:text-md">
                       {event.description}
                     </p>
-                    {/* <div class="flex items-center flex-wrap ">
-                      <a
-                        class="text-secondary inline-flex items-center md:mb-2 lg:mb-0"
-                        href="/"
-                      >
-                        Learn More
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>
