@@ -44,12 +44,14 @@ export default function NavBar({ isMobile, setIsMobile }) {
             {item}
           </a>
         ))}
-        <Button
-          name="Join Now"
-          styles={
-            "text-white bg-secondary hover:bg-primary focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2  transition ease-out duration-300 dark:focus:ring-blue-800 border-2 hover:border-secondary invisible md:visible"
-          }
-        />
+        <a href="https://linktr.ee/mlsaqau" target="_blank" rel="noreferrer">
+          <Button
+            name="Join Now"
+            styles={
+              "text-white bg-secondary hover:bg-primary focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2  transition ease-out duration-300 dark:focus:ring-blue-800 border-2 hover:border-secondary invisible md:visible"
+            }
+          />
+        </a>
       </div>
     </nav>
   );
