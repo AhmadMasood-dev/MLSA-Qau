@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { logo } from "../assets/images/Image";
@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className="bg-[#0A1F44] text-white py-6">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center px-4 space-y-10 lg:space-y-0">
         <div className="flex items-center space-x-2">
+        
           <a href="#">
             <img src={logo} alt="Logo" className="h-14 " />
           </a>
@@ -32,13 +33,13 @@ const Footer = () => {
         </nav>
 
         <div className="flex gap-10 ">
-          <a href="/" target="_blank">
-            <FaFacebook className=" h-6 w-6 text-[#5E708C] hover:text-secondary hover:h-7 hover:w-7 transition-all ease-out duration-700" />
+          <a href="https://chat.whatsapp.com/BALMaDfWeKu3RZBRUpdPx6" target="_blank">
+            <FaWhatsapp className=" h-6 w-6 text-[#5E708C] hover:text-secondary hover:h-7 hover:w-7 transition-all ease-out duration-700" />
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mlsaqau/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className=" h-6 w-6 text-[#5E708C] hover:text-secondary hover:h-7 hover:w-7 transition-all ease-out duration-700" />
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/microsoft-learn-student-ambassadors-qau/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className=" h-6 w-6 text-[#5E708C] hover:text-secondary hover:h-7 hover:w-7 transition-all ease-out duration-700" />
           </a>
         </div>

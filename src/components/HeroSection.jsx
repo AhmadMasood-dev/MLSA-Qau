@@ -13,7 +13,7 @@ export default function HeroSection({ isMobile }) {
           Quaid-I-Azam University
         </span>
         <h3 className="text-sm sm:text-lg md:text-xl pt-10">
-          Be a force for good-locally and globally
+          Be a force for good!
         </h3>
       </div>
     </div>
