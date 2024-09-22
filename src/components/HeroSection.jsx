@@ -12,7 +12,7 @@ export default function HeroSection({ isMobile }) {
         <span className="text-sm sm:text-2xl md:text-4xl font-semibold md:pb-5 pb-0 ">
           Quaid-I-Azam University
         </span>
-        <h3 className="text-sm sm:text-lg md:text-xl pt-10">
+        <h3 className="text-sm sm:text-lg md:text-xl pt-10 font-semibold">
           Be a force for good!
         </h3>
       </div>

@@ -15,15 +15,8 @@
 html {
   scroll-behavior: smooth;
 }
-h1, h2, h3, h4, h5, h6{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-body, p, a, li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; 
-}
 body {
+  font-family: "Poppins", sans-serif;
   color: var(--primary-text-color);
 }
 
@@ -37,20 +30,6 @@ li {
   list-style: none;
 }
 
-/* 
-.primary-button {
-  background-color: var(--accent-color);
-  border-radius: 5px;
-  font-weight: 500;
-  color: white !important;
-  padding: 8px 10px;
-  box-shadow: 0 0 2px var(--secondary-text-color);
-  transition: 2s ease-out;
-  text-align: center;
-}
-.primary-button:hover {
-  background-color: var(--accent-color-dark);
-}*/
 .secondary-button {
   border: 0.5px solid var(--secondary-text-color);
 
