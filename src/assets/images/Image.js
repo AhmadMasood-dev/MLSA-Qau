@@ -21,24 +21,27 @@ import WaseelAhmer from "./Memebers/Waseel_Ahmer.jpeg";
 import UmarFarooq from "./Memebers/UmarFarooq.JPG";
 import IshfaWaleed from "./Memebers/IshfaWaleed.jpg";
 
-import aboutImg from './aboutUs.png'
+import aboutImg from "./aboutUs.png";
 // Events
-import event1 from "./events/MLSA.jpeg";
-import event2 from "./events/IntroGithub.jpeg";
-import event3 from "./events/postman.jpeg";
-import event4 from "./events/Empower.jpeg";
+import mlsa from "./events/MLSA.jpeg";
+import introGithub from "./events/IntroGithub.jpeg";
+import postman from "./events/postman.jpeg";
+import empower from "./events/Empower.jpeg";
+import datacampDonates from "./events/datacampDonates.jpg";
+import githubMasteryBootCamp from "./events/GithubMasteryBootCamp.jpeg";
 
 export {
   logo,
   bars,
   cross,
-
   aboutImg,
 
-  event1,
-  event2,
-  event3,
-  event4,
+  mlsa,
+  introGithub,
+  postman,
+  empower,
+  datacampDonates,
+  githubMasteryBootCamp,
   
   AliMumtaz,
   AhmadMasood,
