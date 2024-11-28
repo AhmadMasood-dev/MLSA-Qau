@@ -6,6 +6,7 @@ import {
   empower,
   datacampDonates,
   githubMasteryBootCamp,
+  devJirga,
 } from "../assets/images/Image.js";
 
 import Slider from "react-slick";
@@ -89,13 +90,19 @@ const Events = () => {
       name: "3-Day GitHub Mastery Bootcamp",
       description:
         "Learn GitHub from scratch and master it in just three days! You'll start by exploring the fundamentals of repositories, commits, branches, and pull requests. Next, dive into advanced skills like resolving conflicts, leveraging GitHub Pages, and managing security effectively. Finally, engage in hands-on projects, contribute to open-source initiatives, and automate workflows with GitHub Actions.",
+      img: githubMasteryBootCamp,
+    },
+    {
+      name: "MLSA QAU x DataCamp Donates",
+      description:
+        "Calling all knowledge seekers! Microsoft Learn Student Ambasadors QAU chapter is excited to announce an exclusive partnership with Datacamp, offering 100+ scholarships to access their entire catalog of 440+ courses. This partnership brings you an incredible opportunity to enjoy a full-year Datacamp subscription.",
       img: datacampDonates,
     },
     {
-      name: "MLSA QAU x 𝗗𝗮𝘁𝗮𝗖𝗮𝗺𝗽 Donates",
+      name: "MLSA QAU x DevJirga: From Vision to Reality",
       description:
-        "Calling all knowledge seekers! 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗟𝗲𝗮𝗿𝗻 𝗦𝘁𝘂𝗱𝗲𝗻𝘁 𝗔𝗺𝗯𝗮𝘀𝘀𝗮𝗱𝗼𝗿𝘀 𝗤𝗔𝗨 𝗰𝗵𝗮𝗽𝘁𝗲𝗿 is excited to announce an exclusive partnership with 𝗗𝗮𝘁𝗮𝗰𝗮𝗺𝗽, offering 𝟭𝟬𝟬+ 𝘀𝗰𝗵𝗼𝗹𝗮𝗿𝘀𝗵𝗶𝗽𝘀 to access their entire catalog of 𝟰𝟰𝟬+ 𝗰𝗼𝘂𝗿𝘀𝗲𝘀 and 𝟭𝟭𝟬+ 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀—each valued at over $𝟯𝟵𝟵 𝗨𝗦𝗗! This partnership brings you an incredible opportunity to enjoy a 𝗳𝘂𝗹𝗹-𝘆𝗲𝗮𝗿 𝗗𝗮𝘁𝗮𝗖𝗮𝗺𝗽 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻, including career tracks, courses, and learning resources in 𝗱𝗮𝘁𝗮 𝘀𝗰𝗶𝗲𝗻𝗰𝗲, 𝗺𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴, 𝗦𝗤𝗟, 𝗮𝗻𝗱 𝗔𝗜.",
-      img: githubMasteryBootCamp,
+        " The Journey of Dev Jirga - جرگہ It's been a month since Dev Jirga - جرگہ but as they say-better late than never! Starting as an idea with Muhammad Faizan Asim and Mahrukh Khan to bridge the gap between academia and industry, it turned into the biggest student-led tech event at Quaid-i-Azam University, Islamabad, with 350+ attendees, 15+ speakers, and impactful panel sessions.",
+      img: devJirga,
     },
   ];
 

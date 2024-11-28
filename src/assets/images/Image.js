@@ -29,20 +29,20 @@ import postman from "./events/postman.jpeg";
 import empower from "./events/Empower.jpeg";
 import datacampDonates from "./events/datacampDonates.jpg";
 import githubMasteryBootCamp from "./events/GithubMasteryBootCamp.jpeg";
+import devJirga from "./events/DevJirga.jpeg";
 
 export {
   logo,
   bars,
   cross,
   aboutImg,
-
   mlsa,
   introGithub,
   postman,
   empower,
   datacampDonates,
   githubMasteryBootCamp,
-  
+  devJirga,
   AliMumtaz,
   AhmadMasood,
   AsjadYousaf,
